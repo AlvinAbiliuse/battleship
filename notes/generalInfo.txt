@@ -3,6 +3,8 @@
 each player places their ships on the bottom board either
 vertically or horizontally
 
+the ships cannot overlap
+
 the boards are hidden from the other players
 
 ships:
