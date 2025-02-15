@@ -2,3 +2,5 @@ dist/
 *.swp
 *.swo
 node_modules
+notes/
+.gitignore
