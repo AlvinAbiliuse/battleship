@@ -1,0 +1,33 @@
+2 10 x 10 grid for each players A-J and 1 - 10
+
+each player places their ships on the bottom board either
+vertically or horizontally
+
+the boards are hidden from the other players
+
+ships:
+	carrier : 5 spaces
+	battleship : 4 spaces
+	destroyer : 3 spaces
+	submarine : 3 spaces
+	patrol boat : 2 spaces 
+
+each player takes a turn calling shots, eg (a1, c9)
+
+if the shot misses, the other player says miss and the other player places a white peg on the bottom board and the player who called the shot places a white peg on the top board
+
+if the shot lands on any of the ships, the player says hit
+and announces the name of the ship being hit
+
+the player whos ship was hit places a red peg on the bottom 
+board atop the ship
+
+the player who called the shot places a red peg on the top board
+
+once all the holes in the ship have been hit, the player
+announces sink {and the name of the ship}
+
+the player who called the shot places a red peg on top of the
+board as well as on the top board
+
+the game ends once all the ships on either side has sunk
