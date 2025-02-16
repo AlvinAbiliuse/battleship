@@ -1,4 +1,4 @@
-export default class ship {
+class ship {
 	carrier = {
 		size: 5,
 		damage: 0,
@@ -30,3 +30,6 @@ export default class ship {
 		isSunk: () => this.patrolBoat.damage === this.patrolBoat.size,
 	};
 }
+
+export default ship;
+module.exports = ship;
