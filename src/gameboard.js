@@ -5,13 +5,13 @@ class gameboard {
 	setBoard = () => {
 		this.column.forEach((i) => {
 			this.row.forEach((j) => {
-				this.board[`${i + "-" + j}`] = false;
+				this.board[`${i + "-" + j}`] = [false, "notOccupied"];
 			});
 		});
 	};
 	placeShips = () => {};
 	recieveAttack = (place) => {
-		this.board[place] = true;
+		this.board[place][0] = true;
 	};
 }
 
