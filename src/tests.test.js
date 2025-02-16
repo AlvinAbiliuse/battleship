@@ -1,7 +1,7 @@
 let { ship } = require("./ship.js");
 
-let ships = new ship();
 let mockShips = jest.fn((shipHit) => {
+	let ships = new ship();
 	ships.shipHit.hit();
 	return ships.shipHit.damage;
 });

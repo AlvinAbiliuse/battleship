@@ -31,4 +31,5 @@ class ship {
 	};
 }
 
-module.exports = ship;
+let player = new ship();
+module.exports = player;

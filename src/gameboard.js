@@ -9,13 +9,11 @@ class gameboard {
 			});
 		});
 	};
-	placeShips = () => {};
+	placeShips = ([ship, place]) => {};
 	recieveAttack = (place) => {
 		this.board[place][0] = true;
 	};
 }
-
-let player1 = new gameboard();
 
 export default gameboard;
 module.exports = gameboard;
