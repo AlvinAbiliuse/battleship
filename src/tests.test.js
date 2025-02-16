@@ -1,9 +1,9 @@
-const { ships } = require("./ship.js");
+const { ship } = require("./ship.js");
 
-let ship = new ships();
+let ships = new ship();
 let mockShips = jest.fn((shipHit) => {
-	gb.shipHit.hit();
-	return gb.ship.damage;
+	ships.shipHit.hit();
+	return ships.shipHit.damage;
 });
 
 describe("gameboard", () => {

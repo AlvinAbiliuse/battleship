@@ -31,5 +31,4 @@ class ship {
 	};
 }
 
-export default ship;
 module.exports = ship;
