@@ -30,4 +30,3 @@ export default class ship {
 		isSunk: () => this.patrolBoat.damage === this.patrolBoat.size,
 	};
 }
-
