@@ -1,4 +1,4 @@
-class ship {
+export default class ship {
 	carrier = {
 		size: 5,
 		damage: 0,
@@ -31,12 +31,3 @@ class ship {
 	};
 }
 
-let player1 = new ship();
-
-player1.battleship.hit();
-player1.battleship.hit();
-player1.battleship.hit();
-player1.battleship.hit();
-
-console.log(player1);
-console.log(player1.battleship.isSunk());
