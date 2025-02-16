@@ -1,0 +1,15 @@
+create an Ship class:
+returning ship objects with length, hit() function, isSunk()
+function 
+
+create a Gameboard class:
+
+grid: {a1: false, a2: false, a3: false, a4: false....
+			 b1, b2, ...}
+shipLocation: 
+
+
+player class:
+
+
+
