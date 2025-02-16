@@ -1,4 +1,4 @@
-const { ship } = require("./ship.js");
+let { ship } = require("./ship.js");
 
 let ships = new ship();
 let mockShips = jest.fn((shipHit) => {
