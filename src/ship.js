@@ -32,4 +32,5 @@ class ship {
 }
 
 let player = new ship();
+console.log(player);
 module.exports = player;

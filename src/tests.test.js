@@ -1,13 +1,13 @@
-let { ship } = require("./ship.js");
+let { player } = require("./ship.js");
 
+console.log(player);
 let mockShips = jest.fn((shipHit) => {
-	let ships = new ship();
-	ships.shipHit.hit();
-	return ships.shipHit.damage;
+	player[ship].shipHit.hit();
+	return player[ship].shipHit.damage;
 });
 
 describe("gameboard", () => {
 	test("hit() increases damage", () => {
-		expect(mockGameboard("carrier")).toBe(1);
+		expect(mockShips("carrier")).toBe(1);
 	});
 });
